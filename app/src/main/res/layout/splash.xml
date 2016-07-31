@@ -13,7 +13,7 @@
         android:layout_width="350px"
         android:layout_height="350px"
         android:id="@+id/imageView"
-        android:src="@drawable/biblia"
+        android:src="@drawable/bible"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
