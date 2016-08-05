@@ -1,118 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:baselineAligned="false"
-    android:contextClickable="false"
-    android:forceHasOverlappingRendering="false"
-    android:focusableInTouchMode="false"
-    android:transitionGroup="false">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <View
-        android:layout_height="30dp" />
-    <View
-        android:layout_height="2dp"
-        android:background="#000000"/>
-    <TableRow
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tableLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="77dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=" Programa destinado à consultas bíblicas. Informe o que está sentindo neste momento para receber um versículo:"
-            android:id="@+id/textView"
-            android:layout_column="0"
-            android:layout_span="3" />
-    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <View
-        android:layout_height="2dp"
-        android:background="#000000"/>
-    <View
-        android:layout_height="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Programa destinado à consultas bíblicas. Informe o que está sentindo neste momento para receber um versículo:"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+        </TableRow>
+    </TableLayout>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:id="@+id/tableLayout"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Libertação"
-            android:id="@+id/button" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Alegria"
-            android:id="@+id/button2" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Aflição"
+                android:id="@+id/button"
+                android:layout_weight="1" />
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Benção"
-            android:id="@+id/button3" />
-    </TableRow>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Alegria"
+                android:id="@+id/button2"
+                android:layout_weight="1" />
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Benção"
+                android:id="@+id/button3"
+                android:layout_weight="1" />
+        </TableRow>
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Cura"
-            android:id="@+id/button4" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Descanso"
-            android:id="@+id/button5" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cura"
+                android:id="@+id/button4"
+                android:layout_weight="1" />
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Esperança"
-            android:id="@+id/button6" />
-    </TableRow>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Descanso"
+                android:id="@+id/button5"
+                android:layout_weight="1" />
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Esperança"
+                android:id="@+id/button6"
+                android:layout_weight="1" />
+        </TableRow>
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Fé"
-            android:id="@+id/button7" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <Button
-            android:layout_width="256px"
-            android:layout_height="100px"
-            android:text="Glória"
-            android:id="@+id/button9" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Fé"
+                android:id="@+id/button7"
+                android:layout_weight="1" />
 
-        <Button
-            android:text="Aflição"
-            android:id="@+id/button8"
-            android:layout_column="2" />
-    </TableRow>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Glória"
+                android:id="@+id/button8"
+                android:layout_weight="1" />
 
-    <View
-        android:layout_height="40dp"/>
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Libertação"
+                android:id="@+id/button9"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
 
-        <ImageView android:id="@+id/imageView2"
-            android:layout_column="0"
-            android:src="@drawable/bible"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:layout_span="3" />
-    </TableRow>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/bible"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tableLayout" />
 
-</TableLayout>
+</RelativeLayout>
