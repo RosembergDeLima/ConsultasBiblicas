@@ -26,4 +26,19 @@ public class TelaPrincipal extends Activity {
         Intent bencao = new Intent(this, Bencao.class);
         startActivity(bencao);
     }
+
+    public void irParaCura(View view){
+        Intent cura = new Intent(this, Cura.class);
+        startActivity(cura);
+    }
+
+    public void irParaDescanso(View view){
+        Intent descanso = new Intent(this, Descanso.class);
+        startActivity(descanso);
+    }
+
+    public void irParaEsperanca(View view){
+        Intent esperanca = new Intent(this, Esperanca.class);
+        startActivity(esperanca);
+    }
 }

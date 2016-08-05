@@ -26,7 +26,10 @@
         </activity>
         <activity android:name=".Aflicao" />
         <activity android:name=".Alegria" />
-        <activity android:name=".Bencao"></activity>
+        <activity android:name=".Bencao" />
+        <activity android:name=".Cura" />
+        <activity android:name=".Descanso" />
+        <activity android:name=".Esperanca"></activity>
     </application>
 
 </manifest>
