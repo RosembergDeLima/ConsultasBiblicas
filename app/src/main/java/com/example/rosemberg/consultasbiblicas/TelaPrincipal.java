@@ -41,4 +41,19 @@ public class TelaPrincipal extends Activity {
         Intent esperanca = new Intent(this, Esperanca.class);
         startActivity(esperanca);
     }
+
+    public void irParaFe(View view){
+        Intent fe = new Intent(this, Fe.class);
+        startActivity(fe);
+    }
+
+    public void irParaGloria(View view){
+        Intent gloria = new Intent(this, Gloria.class);
+        startActivity(gloria);
+    }
+
+    public void irParaLibertacao(View view){
+        Intent libertacao = new Intent(this, Libertacao.class);
+        startActivity(libertacao);
+    }
 }

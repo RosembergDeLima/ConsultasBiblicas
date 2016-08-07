@@ -7,32 +7,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    >
+    tools:context="com.example.rosemberg.consultasbiblicas.Gloria">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Salmos 115:1"
-        android:id="@+id/textView"
-        android:layout_above="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="73dp" />
+        android:text="Mas a nossa cidade está nos céus, de onde também esperamos o Salvador, o Senhor Jesus Cristo, Que transformará o nosso corpo abatido, para ser conforme o seu corpo glorioso, segundo o seu eficaz poder de sujeitar também a si todas as coisas."
+        android:id="@+id/textView15"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Não a nós, Senhor, nenhuma glória para nós,mas sim ao teu nome,por teu amor e por tua fidelidade!"
-        android:id="@+id/textView2"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:text="Filipenses 3:20-21"
+        android:id="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Voltar"
-        android:id="@+id/voltar"
+        android:id="@+id/voltar8"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:onClick="voltar1"/>
-
+        android:onClick="voltar8"/>
 </RelativeLayout>

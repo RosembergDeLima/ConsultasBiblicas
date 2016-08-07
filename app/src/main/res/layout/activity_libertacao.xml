@@ -7,32 +7,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    >
+    tools:context="com.example.rosemberg.consultasbiblicas.Libertacao">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="2 Coríntios 3:17"
-        android:id="@+id/textView"
-        android:layout_above="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="73dp" />
+        android:text="Apega-te, pois, a ele, e tem paz, e assim te sobrevirá o bem. Aceita, peço-te, a lei da sua boca, e põe as suas palavras no teu coração."
+        android:id="@+id/textView17"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Ora, o Senhor é o Espírito e onde está o Espírito do Senhor ali há liberdade. "
-        android:id="@+id/textView2"
-        android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
+        android:text="Jó 22:21-22"
+        android:id="@+id/textView18"
+        android:layout_above="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Voltar"
-        android:id="@+id/voltar"
+        android:id="@+id/voltar9"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:onClick="voltar1"/>
-
+        android:onClick="voltar9"/>
 </RelativeLayout>

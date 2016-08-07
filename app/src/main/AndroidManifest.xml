@@ -29,7 +29,10 @@
         <activity android:name=".Bencao" />
         <activity android:name=".Cura" />
         <activity android:name=".Descanso" />
-        <activity android:name=".Esperanca"></activity>
+        <activity android:name=".Esperanca" />
+        <activity android:name=".Fe" />
+        <activity android:name=".Gloria" />
+        <activity android:name=".Libertacao"></activity>
     </application>
 
 </manifest>

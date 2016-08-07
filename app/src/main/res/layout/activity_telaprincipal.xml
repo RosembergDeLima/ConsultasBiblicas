@@ -64,21 +64,24 @@
                 android:layout_height="wrap_content"
                 android:text="Cura"
                 android:id="@+id/cura"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="irParaCura"/>
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Descanso"
                 android:id="@+id/descanco"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="irParaDescanso"/>
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Esperança"
                 android:id="@+id/esperanca"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="irParaEsperanca"/>
         </TableRow>
 
         <TableRow
@@ -90,21 +93,24 @@
                 android:layout_height="wrap_content"
                 android:text="Fé"
                 android:id="@+id/fe"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="irParaFe"/>
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Glória"
                 android:id="@+id/gloria"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="irParaGloria"/>
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Libertação"
                 android:id="@+id/libertacao"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="irParaLibertacao"/>
         </TableRow>
     </TableLayout>
 
